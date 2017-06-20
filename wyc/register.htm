@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>零度在线 - 用户注册</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- load MUI -->
+<link href="//www.synkc.pw/wyc/as/mui-0.9.17/css/mui.min.css" rel="stylesheet" type="text/css" />
+<script src="//www.synkc.pw/wyc/as/mui-0.9.17/js/mui.min.js"></script>
+
+<script src="//www.synkc.pw/wyc/as/jquery-2.1.1.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#Register").click(function(){
+  var UserNamek=$("#UserName").val();
+  var Passwordk=$("#Password").val();
+  var Emailk=$("#Email").val();
+    $.post("//aserincn.hol.es/sy/wyc/register.php",
+    {
+       UserName:UserNamek, 
+       Password:Passwordk, 
+       Email:Emailk
+    }, 
+    function(status){
+      if(status == "r"){
+      localStorage.setItem("UserName", UserNamek);
+      localStorage.setItem("Password", Passwordk);
+      window.location.href="//www.synkc.pw/wyc/home.htm";
+      }
+      else{
+      window.location.href="//www.synkc.pw/wyc/register-erorr-uisn.htm";
+      }
+    });
+  });
+});
+</script>
+<style> 
+.centt{text-align:center;}
+.rightt{text-align:right;}
+</style> 
+</head>
+<body>
+<h3 class="centt">零度在线</h3>
+<!-- example content -->
+<div class="mui-container">
+<div class="mui-panel">
+<form class="mui-form">
+<legend>用户注册</legend>
+<div class="mui-textfield mui-textfield--float-label">
+<input type="text" id="UserName">
+<label>用户名</label>
+</div>
+<div class="mui-textfield mui-textfield--float-label">
+<input type="text" id="Password">
+<label>密码</label>
+</div>
+<div class="mui-textfield mui-textfield--float-label">
+<input type="text" id="Email">
+<label>电子邮箱</label>
+</div>
+</form>
+<div class="centt"><button id="Register" class="mui-btn mui-btn--raised">注册</button></div>
+<p><a href="//www.synkc.pw/wyc/registermustknow.htm">注册须知</a></p>
+</div>
+<p class="rightt">已有账号？<a href="//www.synkc.pw/wyc/login.htm">立即登录</a></p>
+<p><a href="//www.synkc.pw/wyc/main.htm">首页</a></p>
+</div>
+</body>
+</html>
