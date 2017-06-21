@@ -22,7 +22,7 @@ $(document).ready(function(){
        Password:Passwordk
     }, 
     function(status){
-      if(status == "n"){
+      if(status.indexOf("n") != -1){
       localStorage.setItem("UserName", UserNamek);
       localStorage.setItem("Password", Passwordk);
       window.location.href="//www.synkc.pw/wyc/home.htm";
