@@ -24,13 +24,13 @@ $(document).ready(function(){
        Email:Emailk
     }, 
     function(status){
-      if(status == "r"){
+      if(status.indexOf("r") != -1){
       localStorage.setItem("UserName", UserNamek);
       localStorage.setItem("Password", Passwordk);
       window.location.href="//www.synkc.pw/wyc/home.htm";
-  
-
       }
+      else if(status.indexOf("e") != -1) window.location.href="//www.synkc.pw/wyc/register-erorr-nisnf.htm";
+     
       else{
       window.location.href="//www.synkc.pw/wyc/register-erorr-uisn.htm";
       }
