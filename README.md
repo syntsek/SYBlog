@@ -5,9 +5,9 @@
 ## 联系方式
 ### QQ
 #### `3563885149`
-###邮箱
+### 邮箱
 #### `syntseyk@sina.com`
-#### `syntseyk@gmail.com
+#### `syntseyk@gmail.com`
 
 
 README
