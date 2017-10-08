@@ -1,2 +1,2 @@
-# www
-sywww
+SY' Blog
+这里是黑白世界的个人博客
