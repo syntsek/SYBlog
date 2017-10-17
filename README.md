@@ -9,4 +9,4 @@
 #### `syntseyk@gmail.com`
 ## 项目
 ### FM管理器
-#### [项目官网](http://freedom-fm.github.io)
+#### [项目官网](https://freedom-fm.github.io)
