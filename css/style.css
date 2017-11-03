@@ -96,6 +96,48 @@ strong, span {
 	overflow:hidden;
 }
 
+.footer .clean-list {
+
+  margin-top: -6px;
+
+  padding-left: 23px;
+
+}
+
+
+
+.footer .clean-list li {
+
+  margin-bottom: 5px;
+
+}
+
+
+
+.footer .clean-list li a {
+
+  color: #aaa;
+
+  padding-bottom: 5px;
+
+}
+
+
+
+.footer .clean-list li a:hover {
+
+  color: #ffffff;
+
+}
+
+
+
+.footer .clean-list li:before {
+
+  left: -21px;
+
+}
+
 /*---------------------------------------
     General               
 -----------------------------------------*/
