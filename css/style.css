@@ -84,6 +84,10 @@ strong, span {
   color: #ffffff;
 }
 
+.widewrapper {
+  background-color: #fff;
+}
+
 .copyrights{
 	text-indent:-9999px;
 	height:0;
