@@ -135,27 +135,6 @@ a:hover, a:active, a:focus {
   padding-bottom: 32px;
 }
 
-#about, #work,
-#contact {
-  position: relative;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-#about img, #team img {
-  border-radius: 5px;
-}
-
-#work {
-  border-top: 1px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
-}
-
-#contact {
-  text-align: center;
-}
-
-
 
 /*---------------------------------------
   Pre loader section              
@@ -297,7 +276,7 @@ a:hover, a:active, a:focus {
   Home section              
 -----------------------------------------*/
 
-#home {
+#main-style {
   display: -webkit-box;
   display: -webkit-flex;
    display: -ms-flexbox;
@@ -311,37 +290,10 @@ a:hover, a:active, a:focus {
   padding-top: 62px;
 }
 
-#home img {
+#main-style img {
   width: 120px;
   height: 120px;
 }
-
-
-/*---------------------------------------
-  About section              
------------------------------------------*/
-
-#about .section-title {
-  padding-bottom: 16px;
-}
-
-#about .col-md-4 a {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  margin: 6px 6px 0px 0;
-}
-
-#about .about-thumb {
-  margin-top: 22px;
-}
-
-#about .about-thumb strong {
-  font-weight: normal;
-  display: block;
-  padding-top: 4px;
-}
-
 
 
 /*---------------------------------------
