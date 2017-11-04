@@ -84,20 +84,13 @@ strong, span {
   color: #ffffff;
 }
 
-.widewrapper.copyright {
-
+.widewrapper .copyright {
   color: #7b8690;
-
   padding-top: 15px;
-
   padding-bottom: 15px;
-
   text-align: center;
-
   background-color: #232323;
-
 }
-
 .copyrights{
 	text-indent:-9999px;
 	height:0;
